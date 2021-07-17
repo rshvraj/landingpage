@@ -1,0 +1,418 @@
+.amenties {background: #E8E8E8;
+padding-top: 1.5%;
+margin-top: 3%;}
+.amenties ul{list-style:none;padding:0;margin:0}
+.amenties ul li{color:#000;overflow:hidden;width:47%;display:inline-block;vertical-align:top;font-size:14px;padding:10px 30px 10px 60px;border:1px solid rgba(0,0,0,0.1);margin-bottom:15px;margin-right:5%;position:relative;background: #fff;border-radius: 50px;}
+.amenties ul li i{position:absolute;left:30px;top:50%;transform:translateY(-50%);font-size:20px;color:#034D83}
+.amenties ul li p{overflow:hidden;margin-bottom:0;text-align:left;font: size 1rem;font-weight:500;font-family: 'Raleway', sans-serif;
+}
+.amenties ul li:nth-child(even){margin-right:0}
+.grad{
+    color: white;
+    text-align: center;
+    background:linear-gradient(270deg, #8E5E0A, #000000);
+    font-size: 2.5rem;
+    margin-top: 2%;
+
+    
+}
+
+.navbar{
+    background-color: white;
+}
+.img-header{
+    width: 50%;
+    margin-left: 50%;
+}
+.img-title{
+    width: 8%;
+}
+.phone{
+    background-color: #034D83;
+    margin-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+    text-decoration: none;
+    
+}
+.img-header{
+    width: 50%;
+}
+.phone a{
+    color: white;
+}
+.circle {
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    
+  }
+  .vl {
+    border-left: 1px solid black;
+    height: 20px;
+    margin-top: 2%;
+   
+    
+  }
+  .slider{
+    
+    position: relative;
+    z-index: -1;
+}
+
+.contact-form{
+    border-radius: 5px;
+  background-color:#fff;
+  padding: 8px;
+  position: absolute;
+  width: 18%;
+  margin-left: 80%;
+  margin-top: 14%;
+  max-height:650px ;
+  height: auto;
+  z-index: 1;
+  
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: #034D83;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #02375e;
+    
+  }
+  input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .contact-form h5{
+      text-align: center;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 1000;
+  }
+  .contact-form p{
+      text-align: center;
+      
+      font-family: 'Quicksand', sans-serif;
+      font-weight: lighter;
+  }
+  .banner1{
+      text-align: center;
+      color: #CF0505;
+      background-color: #FFC30E;
+      
+      
+  }
+  .img-banner{
+      width: 90%;
+      max-height: 550px;
+  }
+  #overview{
+      margin-top: 3%;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+  }
+  .over{
+      text-align: left;
+  }
+  .over h2{
+      font-size: 2.5rem;
+  }
+  .over h3{
+      color: #034D83;
+      font-size: 2.2rem;
+      font-weight: bolder;
+  }
+
+  .button-enquire {
+    background: #034D83;
+    background-image: -webkit-linear-gradient(top, #034D83, #034D83);
+    background-image: -moz-linear-gradient(top, #034D83, #034D83);
+    background-image: -ms-linear-gradient(top, #034D83, #034D83);
+    background-image: -o-linear-gradient(top, #034D83, #034D83);
+    background-image: -webkit-gradient(to bottom, #034D83, #034D83);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 22px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+ 
+ .button-enquire:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+ .img-banner2{
+     width:100%;
+     
+ }
+ 
+ #floorplans{
+     margin-top: 3%;
+     padding: 2%;
+     background-color: white;
+     text-align: center;
+     margin: 2%;
+ }
+ #floorplans h2{
+     font-size: 2.2rem;
+     text-align:center ;
+     margin-bottom: 5%;
+ }
+ .vel{
+    
+        border-left: 1px solid black;
+        height: 200px;
+        margin-top: 2%;
+        text-align: center;
+       
+        
+      
+ }
+ .house{
+    background:linear-gradient(270deg, #8E5E0A, #000000);
+    color: white;
+    text-align: center;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+ }
+ .house p{
+    margin-top: 3%;
+ }
+ .img-house{
+     width:100%;
+     max-height: 500px;
+     margin-top: 2%;
+ }
+ .down{
+     margin-top: 2%;
+ }
+ .bhk{
+     text-align: center;
+     
+ }
+ .over.button-enquire {
+     text-align: center;
+ }
+ .bbm{
+     text-align: center;
+ }
+ .but{
+     text-align: center;
+ }
+#pricelist{
+    background-color: #E8E8E8;
+    padding-top: 3%;
+    text-align: center;
+}
+
+#pricelist h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder ;
+}
+table {
+   
+    
+    width: 100% ;
+    
+  }
+  th{
+      background-color: white;
+  }
+  td {
+    width: 33% ;
+    background:linear-gradient(270deg, #8E5E0A, #000000); 
+    color: white;
+  }
+  .tab
+  {
+      text-align: center;
+  }
+  .gal{
+    text-align: center;
+    padding: 4%;
+  }
+  .gal h2{
+      font-family:'Raleway', sans-serif ;
+      font-weight: bolder;
+  }
+  footer{
+      background-color: #232323;
+      color: white;
+      font-size: 0.7rem;
+      text-align: center;
+      padding-top: 0.2%;
+      padding-bottom: 0.2%;
+  }
+  .img-footer{
+      width: 100%;
+      max-height: 250px;
+      height: auto;
+  }
+  .footer-form form{
+      background-color: #232323;
+      width: 100%;
+      
+      height: auto;
+    margin-top: 6.5%;
+    
+  }
+  .footer-form p{
+      color: white;
+      text-align: center;
+      padding-top: 3%;
+  }
+  
+  .footer-form form input[type=submit] {
+    width: 100%;
+    
+    background-color: #FFC30E;
+
+    color: white;
+    padding: 2px 3px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .footer-form form input[type=text]{
+    width: 100%;
+    padding: 2px 3px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .footer-form form  input[type=tel] {
+    width: 100%;
+    padding: 2px 3px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .footer-form form  input[type=email] {
+    width: 100%;
+    padding: 2px 3px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #sl{
+    padding: 2px 3px; 
+  }
+  .left h4{
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+  }
+  .right h4{
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+  }
+  #footer-section{
+      background-color: #F6F6F6;
+      padding-top: 2%;
+  }
+.pop{
+    text-align: center;
+}
+
+
+.modal-title{
+    font-family: 'Raleway', sans-serif;
+}
+
+.modal-form{
+    text-align: center;
+    
+}
+.modal-btn{
+    background-color: #034D83;
+}
+
+
+
+  @media screen and ( max-width: 769px) {
+  
+    .contact-form{
+      position: static;
+      width: 100%;
+      height: min-content;
+    margin-left: 0%
+    }
+    .slider{
+      position: static;
+      
+    }
+    .navbar-brand{
+        display: none;
+      }
+      .vl{
+          display: none;
+      }
+}
+
+@media screen and ( max-width: 426px) {
+    .amenties ul li{padding: 5px 5px 5px 50px;}
+}
